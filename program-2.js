@@ -20,5 +20,5 @@ fetchData("https://jsonplaceholder.typicode.com/todos/1")
     console.log(data);
   })
   .catch((error) => {
-    console.error("Failed to fetch data from example usage.");
+    console.error("Failed to fetch data from example usage.", error);
   });
